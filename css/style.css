@@ -1,0 +1,149 @@
+/* 
+    Document   : style
+    Created on : 19-jan-2012, 19:38:49
+    Author     : webmaster
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin:0; paddin:0;}
+
+root { 
+    display: block;
+}
+
+body {
+	background:#f6eaea;
+	font: Verdana, Geneva, sans-serif 12px;
+	}
+	
+#container {
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+        
+header,section,article,aside,nav,footer{
+    display: block;
+}
+	
+#header {
+	
+	width:960px;
+	display:inline;
+	float:left;
+	}
+        
+h3 {
+	background:url(../img/menu.jpg) top right no-repeat;
+	float: right;
+	display:inline;
+	width:50px;
+	height:205px;
+	}
+
+h4 {
+	background:url(../img/top.jpg) top left no-repeat;
+	float: left;
+	text-indent:-999px;
+	display:inline;
+	width:960px;
+	height:105px;
+	}
+        
+h6 {
+	background:url(../img/logo.jpg) top left no-repeat;
+	float: left;
+	text-indent:-999px;
+	display:inline;
+	width:960px;
+	height:250px;
+	}
+	
+h5 {
+	background:url(../img/top_bg.jpg) top left no-repeat;
+	float: left;
+	text-indent:-999px;
+	display:inline;
+	width:960px;
+	height:43px;
+	}
+	
+nav {
+	
+        width:149px;
+	height:543px;
+	display:inline;
+	float:right;
+	}
+
+nav ul {margin-top:10px;}
+	
+nav li {
+	display: inline;
+	color:#fff;
+	font-size:10px;
+	}
+	
+nav li a {
+	display: inline;
+	color:#fff;
+	font-size:10px;
+	text-decoration:none;
+	padding:5px;
+	}
+        
+onder {
+        display: inline;
+	float: left;
+        }
+	
+#content {float:left; display:inline;}
+
+#content-left {
+	width: 200px;
+	height:193px;
+	float: left;
+	display:inline;
+	background:url(../img/gsm1.jpg) top left no-repeat;
+	margin: 10px;
+	}
+#content-mid {
+	width: 200px;
+	height:193px;
+	float: left;
+	display:inline;
+	background:url(../img/gsm2.jpg) top left no-repeat;
+	margin: 10px;
+	}	
+#content-right {
+	width: 200px;
+	height:193px;
+	float: left;
+	display:inline;
+	background:url(../img/gsm1.jpg) top left no-repeat;
+	margin: 10px;
+	}
+	
+#content-right h1 {color:#6b5c91; font-size:20px; line-height:30px;}
+#content-right h2 {color:#6b5c91; font-size:18px; line-height:27px;}
+	
+footer {
+	float: left;
+	display: inline;
+	width:670px;
+	margin:15px;
+	font-size:small;
+	}
+	
+
+	

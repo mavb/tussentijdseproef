@@ -1,0 +1,77 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tussentijds</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/style.css" media="screen" rel="stylesheet" />
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->  
+ 
+        
+    </head>
+    <body>
+
+<div id="container"> 
+
+	<header>
+            <h4>top</h4>    
+             
+            <h5>Company Name</h5>
+           
+            <h6>Company Slogan</h6>
+        </header><!-- end header -->
+        <section>
+        <nav>
+        	<ul>
+            	<li><a href="#" title="title"></a></li>
+                <li><a href="#" title="title"> </a></li>
+                <li><a href="#" title="title"></a></li>
+                <li><a href="#" title="title"></a></li>
+                <li><a href="#" title="title"></a></li>
+                <li><a href="../contact.html" title="title"> </a></li>
+                <li><a href="#" title="title"> </a></li>
+                </ul>        
+            </nav><!-- end nav -->   
+    <article>
+    
+    	<div id="content-left"> </br></br></br></br></br></br></br></br>
+            <form action = "#" method = "post">
+            aantal : <input type = "text" name = "getal1" /><br />
+            
+            <br />
+            <input type = "submit" value = "optellen" name = "sumbit" /> 
+            
+        </form>
+        <?php 
+        if($_POST['submit'] == "optellen"){  // als er werd geklikt 
+            $som = $_POST['getal1'] + $_POST ['getal2'];  //optellen
+            
+            echo '<p> De som is : ' . $som . '</p>';
+        } 
+        
+        // bij method post krijg ik $_post('')
+        var_dump($_POST);  //var_dump zet de arry leesbaar op scherm
+        
+        ?>
+        </div><!-- end content left -->
+        <div id="content-mid"></br></br></br></br></br></br></br></br>
+            <p> <a href="basket.php?item=2">   Bestel</a></p>
+        </div><!-- end content left -->
+        <div id="content-right"></br></br></br></br></br></br></br></br>
+            <p> <a href="basket.php?item=3">   Bestel</a></p>
+        </div><!-- end content right -->
+        
+        
+    
+    </article><!-- end content -->
+</section>   
+        <footer>&copy; 2003 Your Company. All rights reserved.</footer><!-- end footer -->
+</div>
+
+</body>
+</html>
